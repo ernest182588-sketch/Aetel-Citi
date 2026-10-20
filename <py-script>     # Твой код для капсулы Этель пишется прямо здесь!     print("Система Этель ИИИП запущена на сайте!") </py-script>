@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Этель ИИИП - Бортовой компьютер</title>
+    <!-- Подключаем технологию PyScript, чтобы Python работал прямо на сайте -->
+    <link rel="stylesheet" href="https://pyscript.net" />
+    <script type="module" src="https://pyscript.net"></script>
+    <style>
+        body { background-color: #0b0c10; color: #66fcf1; font-family: monospace; text-align: center; padding: 50px; }
+        .console { background-color: #1f2833; border: 2px solid #45f3ff; border-radius: 10px; padding: 20px; max-width: 600px; margin: 0 auto; text-align: left; box-shadow: 0 0 20px #45f3ff; }
+        h1 { color: #ff0055; text-shadow: 0 0 10px #ff0055; }
+    </style>
+</head>
+<body>
+
+    <h1>КОРПОРАЦИЯ ЭТЕЛЬ ИИИП</h1>
+    <h3>Прототип системы безопасности летающей капсулы</h3>
+    
+    <div class="console">
+        <!-- Внутри этого тега запускается твой Python код! -->
+        <script type="py">
+import time
+
+print("--- СИСТЕМА ЭТЕЛЯ ИИИП ЗАПУЩЕНА НА САЙТЕ ---")
+print("Добро пожаловать в Этель Сити!")
+print("Сканирование ключа доступа... [*******]")
+
+# Сюда ты можешь вписать правильный или неправильный пароль прямо на сайте!
+мой_пароль = "Этель2050" 
+
+if мой_пароль == "Этель2050":
+    print("\n[ДОСТУП РАЗРЕШЕН]")
+    print("Приветствую, Создатель!")
+    print("Заряд капсулы (энергия Сатурна): 100%")
+    print("Капсула готова к взлету!")
+    print("ПШШШУУУУХ! Вы в воздухе! Мост Этель горит синим светом! 🚀")
+else:
+    print("\n[ОШИБКА ДОСТУПА! СИСТЕМА БЛОКИРОВКИ АКТИВИРОВАНА]")
+    print("Попытка угона зафиксирована! Вызвана полиция Этель Сити. 🚨")
+    print("ВИУ-ВИУ-ВИУ! Вам грозит пожизненный срок!")
+        </script>
+    </div>
+
+</body>
+</html>
